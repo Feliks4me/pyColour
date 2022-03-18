@@ -7,7 +7,7 @@
 import color
 
 #print in color
-color.prt("red", "debug")
+color.prt("lred", "debug")
 
 #input in color
 demo = color.inp("blue", "demo?")
