@@ -7,10 +7,13 @@
 import color
 
 #print in color
-color.prt("lred", "debug")
+color.prt("red", "debug")
 
 #input in color
-demo = color.inp("blue", "demo?")
+demo = color.inp("blue", "Enter your name, ")
+
+#print in color
+color.prt("red", f"your name is {demo}")
 
 -------------------------------
 
